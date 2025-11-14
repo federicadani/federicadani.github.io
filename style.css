@@ -97,8 +97,8 @@ h1 {
 
 .project-meta {
   margin: 0 0 10px;
-  font-size: 0.8rem;
-  color: #777;
+  font-size: 0.75rem;   /* smaller */
+  color: #888;          /* slightly lighter for hierarchy */
 }
 
 .project p {
