@@ -6,10 +6,11 @@
 
 body {
   margin: 0;
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   background: #fafafa;
   color: #222;
 }
+
 
 .page {
   max-width: 900px;
