@@ -132,18 +132,19 @@ h1 {
 
 .project-meta {
   margin: 0 0 10px;
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   color: var(--muted-text);
+  opacity: 0.9;
 }
 
 .project a {
   text-decoration: none;
-  color: #000;              /* black */
+  color: var(--text);
   font-weight: 500;
 }
 
 .project a:hover {
-  color: #d17a8c;           /* warm pink hover */
+  color: var(--accent);
 }
 
 .project:hover {
