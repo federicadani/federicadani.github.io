@@ -127,18 +127,18 @@ h1 {
   font-size: 1.02rem;
 }
 
-.project p:not(.project-meta) {
+.project p {
   margin: 0;
   line-height: 1.55;
   font-size: 0.88rem;
   color: var(--soft-text);
 }
 
-.project-meta {
-  margin: 0 0 10px;
-  font-size: 0.75rem;
-  opacity: 0.60;
+.project p.project-meta {
+  font-size: 0.70rem;      /* smaller */
+  opacity: 0.65;           /* softer */
   color: var(--meta-text);
+  margin: 0 0 10px;
 }
 
 .project a {
