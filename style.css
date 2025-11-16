@@ -14,6 +14,8 @@
   --accent: #d17a8c;
   --tag-bg: #f0f2ff;
   --tag-border: #e0e4ff;
+  --soft-text: rgba(0, 0, 0, 0.75);   /* description text */
+  --meta-text: rgba(0, 0, 0, 0.55);   /* smaller meta line */
 }
 
 body.dark {
@@ -26,6 +28,8 @@ body.dark {
   --accent: #f9a8d4;
   --tag-bg: #111827;
   --tag-border: #374151;
+  --soft-text: rgba(255, 255, 255, 0.82);  /* softer clean white */
+  --meta-text: rgba(255, 255, 255, 0.55);  /* lighter grey */
 }
 
 body {
@@ -127,15 +131,16 @@ h1 {
   margin: 0;
   line-height: 1.55;
   font-size: 0.88rem;
-  color: var(--text);
+  color: var(--soft-text);
 }
+
 
 .project-meta {
   margin: 0 0 10px;
-  font-size: 0.75rem;
-  color: var(--muted-text);
-  opacity: 0.9;
+  font-size: 0.72rem;
+  color: var(--meta-text);
 }
+
 
 .project a {
   text-decoration: none;
@@ -166,13 +171,13 @@ h1 {
   font-size: 0.78rem;
   letter-spacing: 0.18em;
   text-decoration: none;
-  color: #333;
+  color: var(--soft-text);
 }
-
 
 .links a:hover {
-  text-decoration: underline;
+  color: var(--accent);
 }
+
 
 .theme-toggle {
   position: fixed;
