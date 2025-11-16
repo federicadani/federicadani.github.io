@@ -135,8 +135,8 @@ h1 {
 }
 
 .project p.project-meta {
-  font-size: 0.70rem;      /* smaller */
-  opacity: 0.65;           /* softer */
+  font-size: 0.75rem;      /* smaller */
+  opacity: 0.7;           /* softer */
   color: var(--meta-text);
   margin: 0 0 10px;
 }
